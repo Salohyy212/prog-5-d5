@@ -11,15 +11,15 @@ public class Coffee {
         this.stock = stock;
     }
 
+    public void setStock(int stock) {
+        this.stock = stock;
+    }
+
     public String getName() { return name; }
     public double getPrice() { return price; }
     public int getStock() { return stock; }
 
     public void reductionStock() {
         if (stock > 0) stock--;
-    }
-
-    public boolean disponibleStock() {
-        return stock > 0;
     }
 }
